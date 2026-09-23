@@ -4,6 +4,8 @@ A 3D chess board built in C++ with legacy OpenGL and GLUT. Pieces are picked wit
 
 Built as my final project for **CS 450/550 (Computer Graphics), Oregon State University, Fall 2023**.
 
+<p align="center"><img src="docs/board.png" alt="The 3D chess board mid-game, viewed from above" width="480"></p>
+
 ## Features
 
 - **Ray-cast picking.** A mouse click is unprojected through the stored projection and view matrices into a world-space ray, which is tested against per-piece and per-tile axis-aligned bounding boxes.
@@ -12,6 +14,8 @@ Built as my final project for **CS 450/550 (Computer Graphics), Oregon State Uni
 - **Animation.** Moving pieces follow a sine-wave arc to their target square; captured pieces rotate over and fade out.
 - **Lighting.** A switchable scene light with selectable color.
 - **Debug view.** Draws the pick ray and bounding boxes and logs selection details to the console.
+
+<p align="center"><img src="docs/debug-ray.png" alt="Debug view: the red pick ray passing through a pawn's bounding box" width="184"><br><em>Debug view: the pick ray passing through a pawn's bounding box.</em></p>
 
 ## Controls
 
