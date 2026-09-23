@@ -1,0 +1,21 @@
+# Visual Studio
+.vs/
+Debug/
+Release/
+x64/
+*.sdf
+*.VC.db
+*.ncb
+*.opt
+*.plg
+*.suo
+*.user
+*.idb
+*.pdb
+*.ilk
+*.tlog
+
+# Build output (note: pieces/*.obj are 3D models, not object files)
+/sample
+*.exe
+*.o
